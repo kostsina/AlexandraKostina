@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			@import "screen.css" screen;
+			@import "print.css" print;
+		</style>
+		<TITLE>CSS 1.4</TITLE>
+	</HEAD> 
+	<body style="text-align: left; background-color: white; font-size: 14;">
+			<img src="Icon-Python.png" title="логотип Python" alt="логотип Python" align="right">		
+			<H1>HOW-TO: Программа на Python, Часть 1</H1>
+		<ul>	
+			<li><EM>Программа на Python — часть 1</EM></li>
+			<li><a href="base2.html"><EM>Программа на Python — часть 2</EM></a></li>
+			<li><a href="base3.html"><EM>Программа на Python — часть 3</EM></a></li>
+		</ul>
+			<H2><p id="p3">Содержание</p></H2>
+			<H3>HOW-TO: Программа на Python, Часть 1</H3>
+		<ul>
+			<li><a href="#p1">Наша первая программа</a></li>
+			<li><a href="#p2">Пример цикла For</a></li>
+		</ul>
+		<P>Из множества существующих языков программирования Python — один из самых лёгких
+		в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+		Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+		обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+		создание консольных приложений, а в следующей — программирование графических
+		интерфейсов <u>(GUI)</u>. Давайте создадим простую программу прямо сейчас.</P>
+		<H2><p id="p1">Наша первая программа</p></H2>
+		<p><a href="#p3">К содержанию</a></p>
+		<P>Наберём код в текстовом редакторе (например, в <strong>gedit</strong>). Потом мы разберёмся, что делает
+		каждая строка и пойдём дальше.</P>
+		<P>Введите эти 4 строки:</P>
+		<P><code>#!/usr/bin/env python<Br>
+		print 'Hello. I am a python program.'<Br>
+		name = raw_input("What is your name?")<Br>
+		print "Hello there, " + name + "!"<Br></code></P>
+		<P>Это всё. Сохраните файл как hello.py в любом месте. Я предлагаю сохранить его в папке
+		python_examples в домашнем каталоге. Этот пример показывает, как просто написать
+		программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+		этого введите в терминале</P>
+		<EM><u>chmod +x hello.py</u></EM>
+		<P>в папке, в которой вы сохранили программу. Теперь запустите её.</P>
+		<P><code>greg@earth:~/python_examples$ ./hello.py<Br>
+		Hello. I am a python program.<Br>
+		What is your name? Ferd Burphel<Br>
+		Hello there, Ferd Burphel!<Br>
+		greg@earth:~/python_examples$<Br></code></P>
+		<P>Вот и всё.</P>
+		<H2><p id="p2">Пример цикла For</p></H2>
+		<p><a href="#p3">К содержанию</a></p>
+		<P>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+		редактор и наберите следующую программу:</P>
+		<P><code>#!/usr/bin/env python<Br>
+		for cntr in range(0,10):<Br>
+			print cntr<Br></code></P>
+		<P><EM>Не забудьте поставить символ табуляции перед строкой «print cntr».</EM> Это важно. В
+		Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
+		как в других языках программирования, а отступы.</P>
+		<table width="100%">
+			<col width="50%">
+			<tr>
+				<td><a href="" onclick="return false"><img src="prev.png" align="left" title="переход на предыдущую страницу" alt="переход на предыдущую страницу"></a></td>
+				<td><a href="#p3"><img src="home.png" align="center" title="переход к основному содержанию текущей страницы" alt="переход к основному содержанию текущей страницы"></a></td>
+				<td><a href="base2.html"><img src="next.png" align="right" title="переход на следующую страницу" alt="переход на следующую страницу"></a></td>
+			</tr>
+		</table>
+	</body>
+</HTML>
