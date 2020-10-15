@@ -1,0 +1,23 @@
+.cardDeck{
+    background-image: url(images/cardDeck.png);
+    width: 571px;
+    height: 2577px;
+}
+.cardDeck.clubs{
+    background-position: -140px -190px;
+    width: 148px;
+    height: 202px;
+    position: relative;
+}
+.cardDeck.hearts{
+    background-position: -427px -600px;
+    width: 148px;
+    height: 202px;
+    left: -120px; top: 25px;
+}
+.cardDeck.diamonds{
+    background-position: -285px -1392px;
+    width: 148px;
+    height: 202px;
+    left: -240px; top: 50px;
+}
