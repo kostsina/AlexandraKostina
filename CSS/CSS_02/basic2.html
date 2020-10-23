@@ -2,32 +2,42 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=text.0">
 		<style>
-			ul{
-				list-style-type: lower-roman;
+			div{ background-color: black;
+				color: green;
+				width: 400px;
+				max-height: 5em;
+				overflow: auto;
 			}
 		</style>
 		<title>CSS. Lists and containers</title>
 	</head> 
 	<body>
-		<ul class="romanUpper">
-			<li>1
-				<ul class="romanLower">
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
+		<ul style="list-style-type: upper-roman;"
+		width: 350px;>
+			<li>text
+				<ul style="list-style-type: lower-roman;">
+					<li>text</li>
+					<li>text</li>
+					<li>text</li>
+					<li>text</li>
+					<li>text</li>
 				</ul>
 			</li>
-			<li>1
-				<ul class="romanLower">
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
+			<li>text
+				<ul>
+					<li>text</li>
+					<li>text</li>
+					<li>text</li>
 				</ul>
 			</li>
 		</ul>
+		<div>
+			<code>#!/usr/bin/env python<br>
+			print 'Hello. I am a python program.'<br>
+			name = raw_input("What is your name?")<br>
+			print "Hello there, " + name + "!"</code>
+		</div>
     </body>
 </html>
