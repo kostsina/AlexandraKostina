@@ -3,14 +3,18 @@
 	<head>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="cards.css">
+        <style type="text/css">
+            .card IMG {position: relative;}
+            .five {left: -120px; top: 25px;}
+            .nine {left: -240px; top: 50px;}
+        </style>
         <title>CSS sprites</title>
 	</head> 
 	<body>
-        <p>
-            <div class="cardDeck clubs"></div>
-            <div class="cardDeck hearts"></div>
-            <div class="cardDeck diamonds"></div>
-        </p>
+       <p class=card>
+           <img src="images/3clubs.png" alt="3" class="three">
+           <img src="images/5hearts.png" alt="5" class="five">
+           <img src="images/9diamonds.png" alt="9" class="nine">
+       </p>
     </body>
 </html>
